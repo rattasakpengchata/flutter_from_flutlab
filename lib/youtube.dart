@@ -12,24 +12,12 @@ class YoutubeApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: VDOPage(),
-    );
-  }
-}
-
-class VDOPage extends StatelessWidget {
-  const VDOPage({super.key});
-
-  @override
-  Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text('YouTube Multi Platform')),
       body: ListView(
         padding: const EdgeInsets.all(12),
         children: const [
-          YoutubePlayerView(videoId: 'nPt8bK2gbaU'),
+          YoutubePlayerView(videoId: 'AL1pDdk8R40'),
         ],
       ),
       floatingActionButton: FloatingActionButton(
